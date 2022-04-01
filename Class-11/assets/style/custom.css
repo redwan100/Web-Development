@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.hero__section{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,.5)), url(../picture/hero.png);
+    background-size: cover;
+    background-position: bottom bottom;
+    
+}
+
+@media screen and (max-width: 530px) {
+    .btns{
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.about{
+    background-color: rgb(64, 64, 64);
+}
+
+.title{
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+}
+
+.icon{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contact{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0, 0, 0,.5)), url(../picture/hero.png);
+    background-size: cover;
+    background-position: bottom bottom;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form input{
+    width: 48%;
+    gap: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #c9c9c9;
+}
+
+.form input[placeholder]{
+    color: black;
+}
+
+textarea{
+    margin-top: 1rem;
+    width: 100%;
+    height: 120px;
+    resize: none;
+    border: none;
+    outline: none;
+    background-color: #c9c9c9;
+    border-radius: 7px;
+    padding: 1rem;
+
+}
